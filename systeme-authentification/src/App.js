@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
 
     
     <div className="login-form">
-      <form className="sign-in-htm" action="./api/Users/login.php" method="POST">
+      <form className="sign-in-htm" action="../api/Users/login.php" method="post">
         <div className="group">
           <input id="username" name="username" type="text" className="input" placeholder="Nom d'utilisateur"/>
         </div>
