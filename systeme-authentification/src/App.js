@@ -15,7 +15,7 @@ function App() {
 
     
     <div className="login-form">
-      <form className="sign-in-htm" action="../api/Users/login.php" method="post">
+      <form className="sign-in-htm" action="http://localhost:5000/api/Users/login.php" method="post">
         <div className="group">
           <input id="username" name="username" type="text" className="input" placeholder="Nom d'utilisateur"/>
         </div>
@@ -28,7 +28,7 @@ function App() {
         <div className="hr" />
         
       </form>
-      <form className="sign-up-htm" action="./api/Users/signup.php" method="POST">
+      <form className="sign-up-htm" action="../api/Users/signup.php" method="POST">
         <div className="group">
           <input id="username" name="username" type="text" className="input" placeholder="Nom d'utilisateur"/>
         </div>
