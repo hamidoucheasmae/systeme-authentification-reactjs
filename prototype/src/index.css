@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.header {
+  padding: 10px;
+  background:#edf2F4 ;
+  border-bottom: 1PX solid #999;
+}
+.header a{
+
+  color: blue;
+  text-decoration: none;
+  margin-left: 20px;
+  margin-right: 5px;
+}
+
+.header a:hover{
+ color: red;
+}
+.header small{
+color: gray;
+}
+.header .active {
+  color: green;
+}
