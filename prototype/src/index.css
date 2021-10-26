@@ -33,3 +33,6 @@ color: gray;
 .header .active {
   color: green;
 }
+.content{
+  padding: 20px;
+}
