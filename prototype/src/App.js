@@ -1,5 +1,6 @@
 import './index.css';
 import React, { Component } from "react";
+import axios from 'axios';
 
 class App extends Component{
   state={
@@ -13,7 +14,14 @@ await this.setState({
   }
 
  handleSubmit = e => {
+   e.preventDafault();
 console.log(this.state.text);
+let formData = new FormData();
+formData.append("text",this.state.text);
+const url = "http://localhost:80/react-backend";
+axios.post(url,formData)
+.then(res=> console.log(res.data))
+.catch(err=> console.log(err));
  }
 render()
 
