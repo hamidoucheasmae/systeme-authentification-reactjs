@@ -1,0 +1,8 @@
+<IfModule mod_rewrite.c>
+Header add access-Control-Allow-Origin :"*"
+Header add access-Control-Allow-Methods: "GET,POST,OPTIONS,DELETE,PUT"
+Header add access-Control-Allow-Headers: "Content-Type"
+
+RewriteEngine on 
+RewriteBase /
+</IfModule>

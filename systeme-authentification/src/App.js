@@ -16,7 +16,7 @@ function App() {
 
     
     <div className="login-form">
-      <form className="sign-in-htm" action="http://localhost:5000/api/Users/login.php" method="post">
+      <form className="sign-in-htm" action="http://localhost/github/systeme-authentification-reactjs/systeme-authentification/src/api/Users/login.php" method="post">
         <div className="group">
           <input id="username" name="username" type="text" className="input" placeholder="Nom d'utilisateur"/>
         </div>
