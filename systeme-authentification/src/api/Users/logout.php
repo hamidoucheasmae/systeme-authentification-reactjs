@@ -8,7 +8,7 @@ $_SESSION = array();// Unset all of the session variables the were stored during
 
 session_destroy(); // Destroy the session.
  
-header('location:../../login.html');
+header('location:http://localhost:3000/');
 
 exit;
 
