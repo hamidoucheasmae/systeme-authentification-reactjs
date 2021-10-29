@@ -1,6 +1,7 @@
 
 import './App.css';
 
+
 function App() {
   return (
 <div className="login-wrap">
@@ -25,7 +26,7 @@ function App() {
         <div className="group">
          <input type="submit" name="submit" className="button" defaultValue="Connexion" />
         </div>
-        <div className="hr" />
+       
         
       </form>
       <form className="sign-up-htm" action="../api/Users/signup.php" method="POST">
