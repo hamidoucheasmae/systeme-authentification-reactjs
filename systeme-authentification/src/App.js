@@ -29,7 +29,7 @@ function App() {
        
         
       </form>
-      <form className="sign-up-htm" action="../api/Users/signup.php" method="POST">
+      <form className="sign-up-htm" action="http://localhost/github/systeme-authentification-reactjs/systeme-authentification/src/api/Users/signup.php" method="POST">
         <div className="group">
           <input id="username" name="username" type="text" className="input" placeholder="Nom d'utilisateur"/>
         </div>
